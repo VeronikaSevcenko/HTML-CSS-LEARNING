@@ -1,0 +1,59 @@
+.counter-section{
+    background-image: linear-gradient(#307880, #f0c1ae, #E57F84, #2F5061);
+    background-image: linear-gradient(#307880, #f0c1ae, #E57F84, #2F5061);
+    height: 100%;
+    background-size: 100%;
+    font-size: 100px;
+    padding: 10px;
+}
+
+.counter-wrapper{
+    background-image: radial-gradient(white,#f0c1ae);
+    opacity: 75%;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    min-width: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+
+.total{
+    color: #464646;
+    font-size: 100px;
+    padding: 0 10px;
+}
+
+
+.btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-width: 0;
+    font-size: 40px;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 0 8px;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.btn:active{
+    opacity: 0.1;
+}
+
+.btn-add{
+background-color: #5fafaf;
+}
+
+.btn-subtract{
+    background-color: #e4465e;
+}

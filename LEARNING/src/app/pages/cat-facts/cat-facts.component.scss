@@ -1,0 +1,10 @@
+.cat-fact-section {
+    background-image: linear-gradient(#307880,#038f59,#A3EBB1,#ECF87F,#59981A);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 10px;
+    padding: 10px 20px;
+    height: 100%;
+}
+
+

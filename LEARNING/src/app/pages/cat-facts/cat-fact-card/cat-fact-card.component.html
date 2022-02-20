@@ -1,0 +1,7 @@
+<div  *ngIf="fact" class="card">
+    <div class="card-header">Created {{ fact.createdAt  | date: 'dd.MM.YYYY HH:mm'}}</div>
+    <img [src]="'https://picsum.photos/300/200?random=' + index" alt="cat" class="card-img">
+    <p class="card-descripton">{{ fact.text }}</p>
+    <div class="card-footer">Updated {{ fact.updatedAt | date: 'dd.MM.YYYY HH:mm' }}</div>
+    <button type="button" class="login-button-Hi" (click)="sayHi()">Say Hi</button>
+</div>

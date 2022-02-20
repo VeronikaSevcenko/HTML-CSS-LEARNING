@@ -1,0 +1,41 @@
+.header{
+    padding: 10px;
+    background-color: #307880;
+}
+
+.link-wrapper{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+    text-align: center;
+}
+
+.link:hover{
+border-bottom: 2px solid rgb(255, 196, 235);
+border-radius: 50%;
+}
+
+.active{
+    font-weight: bold;
+    border-bottom: 2px solid rgb(9, 73, 78);
+    color:rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 500px) {
+    .header{
+        display: block;
+    }
+
+    .link{
+        width: 100%;
+    }
+}

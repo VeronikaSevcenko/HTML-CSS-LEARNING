@@ -1,0 +1,9 @@
+<section *ngIf="facts$ | async as facts" class="cat-fact-section"> 
+    <app-cat-fact-card 
+    *ngFor="let fact of facts; let i = index"
+    class="cat-fact-secton" 
+    [fact]="fact"
+    (sayHiEvent)="sayHi($event)" 
+    [index]="i">
+</app-cat-fact-card>
+</section>

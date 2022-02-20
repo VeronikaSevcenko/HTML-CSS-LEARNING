@@ -1,0 +1,24 @@
+.User-section {
+    background-image: linear-gradient(#307880,#00dbeb);
+    height: 100%;
+    background-image: url("https://img.wallpapersafari.com/desktop/1024/576/89/88/yJOebU.jpg");
+    background-size: 100%;
+}
+
+.user-table {
+    border: 1px solid #ffffff;
+    margin: 10px;
+    background-image:linear-gradient(#307880, white);
+    
+    
+}
+
+td, td {
+    border: 3px solid #ffffff;
+    padding: 10px;
+}
+
+.row:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}

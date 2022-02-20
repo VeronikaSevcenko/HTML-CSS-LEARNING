@@ -1,0 +1,16 @@
+<section class="User-section" >
+  <div *ngIf="users$ | async as users">
+    <table class="user-table">
+        <tr>
+            <th *ngFor="let title of columnTitles">{{ title}}</th>
+        </tr>
+        <tr *ngFor="let user of users" class="row" (dblclick)="navigate(user.id)">
+            <td>{{ user.id}}</td>
+            <td>{{ user.name}}</td>
+            <td>{{ user.username}}</td>
+        </tr>
+
+    </table>
+  </div>
+
+</section>

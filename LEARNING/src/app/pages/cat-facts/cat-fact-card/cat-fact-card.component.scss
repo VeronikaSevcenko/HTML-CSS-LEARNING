@@ -1,0 +1,56 @@
+.card {
+    background-image: linear-gradient(#307880,#21B6A8,#174e22);
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    
+}
+
+.card  :hover{
+    opacity: 20%;
+}
+
+.login-button-Hi {
+    margin-top: 20px;
+    padding: 10px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #03a071 51%, #86f6da 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 4px;
+    background-image: url("https://cataas.com/cat");
+    aspect-ratio: 2 / 1;
+}
+
+.card-description {
+    font-size: 20px;
+    padding: 10x;
+    flex-grow: 1;
+}
+
+.card-footer, .card-header {
+    text-align: center;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.623);
+    font-weight: 500;
+    font-weight: bold;
+}
